@@ -1,0 +1,17 @@
+Title: Successful login with valid credentials
+ID: C1001
+Preconditions: User account exists
+1. Navigate to /login
+2. Enter "standard_user" in "Username"
+3. Enter "secret_sauce" in "Password"
+4. Click "Login" button
+Expected: User is redirected to inventory page
+Expected: "Products" is displayed
+
+Title: Login fails with invalid password
+ID: C1002
+1. Navigate to /login
+2. Enter "standard_user" in "Username"
+3. Enter "wrong" in "Password"
+4. Click "Login" button
+Expected: "Username and password do not match" is displayed

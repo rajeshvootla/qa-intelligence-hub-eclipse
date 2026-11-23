@@ -1,0 +1,5 @@
+streamlit>=1.32
+pytest>=8.0
+pytest-playwright>=0.5
+playwright>=1.42
+openai>=1.0
